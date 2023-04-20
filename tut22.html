@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector & designing</title>
+    <style>
+        #container{
+            border: 2px solid rgb(119, 185, 81);
+            background-color: antiquewhite;
+            margin: 10px auto;
+            padding: 4px;
+            width:666px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color:rgb(119, 9, 9);
+            background-color: azure;
+        }
+        a:visited{
+           background-color: yellow;
+        }
+        a:active{
+            background-color: blue;
+        }
+        .btn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            border: 2px solid red;
+            background-color: rgb(106, 58, 138);
+            padding: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+
+        }
+        btn:hover{
+            color:rgb(84, 145, 28);
+            background-color: azure;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum qui ab eligendi libero aliquid eos, dolorum aliquam eum officia quis eaque veritatis numquam eveniet deleniti debitis doloremque consequatur, dolores itaque!</p>
+        <a href="http://127.0.0.1:5500/tut21.html" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+
+</body>
+</html>
